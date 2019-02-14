@@ -198,7 +198,7 @@ button {
     width: 100%;
 }
 
-.bg1, .bg2, .bg3 {
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
     height: 560px;
     width: 100%;
 }
@@ -213,6 +213,31 @@ button {
 
 .bg3 {
     background: url(../img/tangerines.jpg) no-repeat center/cover;
+    display: none;
+}
+
+.bg4 {
+    background: url(../img/nuts-slider.jpg) no-repeat center/cover;
+    display: none;
+}
+
+.bg5 {
+    background: url(../img/nuts4-slider.jpg) no-repeat center/cover;
+    display: none;
+}
+
+.bg6 {
+    background: url(../img/nuts5-slider.jpg) no-repeat center/cover;
+    display: none;
+}
+
+.bg7 {
+    background: url(../img/nuts6-slider.jpg) no-repeat center/cover;
+    display: none;
+}
+
+.bg8 {
+    background: url(../img/nuts8-slider.jpg) no-repeat center/cover;
     display: none;
 }
 
@@ -287,7 +312,7 @@ button {
 
 #our-products,
 #countries {
-    background: #f8f8f8;
+    background: #f4f4f4;
 }
 
 .categories {
@@ -1323,18 +1348,16 @@ article .a-more {
 
 @media (min-width: 992px) {
     
-/*
     body {
         font-size: 15px;
         font-weight: 300;
     }
-*/
     #slide-overlay {
         padding-top: 222px;
     }
     #slideshow,
     #slide-overlay,
-    .bg1, .bg2, .bg3 {
+    .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
         height: 600px;
     }
     #why-us,
